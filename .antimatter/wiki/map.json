@@ -1,23 +1,317 @@
 {
-  "root": "/tmp/am-ws/ch_mun9nolx_1",
-  "name": "ch_mun9nolx_1",
-  "generatedAt": "2026-09-29T22:47:13.109Z",
-  "fileCount": 1,
-  "dirCount": 1,
+  "root": "/tmp/am-ws/c-1790732953561-xczn6",
+  "name": "c-1790732953561-xczn6",
+  "generatedAt": "2026-09-30T22:47:13.347Z",
+  "fileCount": 54,
+  "dirCount": 20,
   "languages": {
-    "Markdown": 1
+    "Markdown": 8,
+    "JSON": 6,
+    "JavaScript": 2,
+    "TypeScript": 30,
+    "CSS": 1
   },
   "keyFiles": [
-    "README.md"
+    "package.json",
+    "README.md",
+    "tsconfig.json"
   ],
   "directories": [
     {
-      "dir": "(root)",
-      "fileCount": 1,
+      "dir": ".antimatter/wiki",
+      "fileCount": 6,
       "files": [
-        "README.md"
+        "index.md",
+        "log.md",
+        "map.json",
+        "map.md",
+        "overview.md",
+        "schema.md"
       ],
       "symbols": []
+    },
+    {
+      "dir": "(root)",
+      "fileCount": 12,
+      "files": [
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "components.json",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "README.md",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "public",
+      "fileCount": 5,
+      "files": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app",
+      "fileCount": 4,
+      "files": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ],
+      "symbols": [
+        {
+          "name": "metadata",
+          "kind": "const"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/api/quiz",
+      "fileCount": 1,
+      "files": [
+        "route.ts"
+      ],
+      "symbols": [
+        {
+          "name": "POST",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/api/routine",
+      "fileCount": 1,
+      "files": [
+        "route.ts"
+      ],
+      "symbols": [
+        {
+          "name": "POST",
+          "kind": "fn"
+        },
+        {
+          "name": "GET",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/cart",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/products",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/products/[id]",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/quiz",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/quiz/results",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/routine",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/science",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/science/lab-notes",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/story",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/subscription",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/components",
+      "fileCount": 3,
+      "files": [
+        "cart-drawer.tsx",
+        "footer.tsx",
+        "header.tsx"
+      ],
+      "symbols": [
+        {
+          "name": "CartDrawer",
+          "kind": "fn"
+        },
+        {
+          "name": "Footer",
+          "kind": "fn"
+        },
+        {
+          "name": "Header",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/components/ui",
+      "fileCount": 6,
+      "files": [
+        "badge.tsx",
+        "button.tsx",
+        "card.tsx",
+        "input.tsx",
+        "separator.tsx",
+        "sheet.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/data",
+      "fileCount": 4,
+      "files": [
+        "products.ts",
+        "quiz.ts",
+        "routine.ts",
+        "subscription.ts"
+      ],
+      "symbols": [
+        {
+          "name": "getProductById",
+          "kind": "fn"
+        },
+        {
+          "name": "getProductsByCategory",
+          "kind": "fn"
+        },
+        {
+          "name": "Product",
+          "kind": "interface"
+        },
+        {
+          "name": "products",
+          "kind": "const"
+        },
+        {
+          "name": "categories",
+          "kind": "const"
+        },
+        {
+          "name": "getRoutineIdFromAnswers",
+          "kind": "fn"
+        },
+        {
+          "name": "QuizQuestion",
+          "kind": "interface"
+        },
+        {
+          "name": "quizQuestions",
+          "kind": "const"
+        },
+        {
+          "name": "RoutineStep",
+          "kind": "interface"
+        },
+        {
+          "name": "RoutineStack",
+          "kind": "interface"
+        },
+        {
+          "name": "routineStacks",
+          "kind": "const"
+        },
+        {
+          "name": "skinConcerns",
+          "kind": "const"
+        },
+        {
+          "name": "FaqEntry",
+          "kind": "interface"
+        },
+        {
+          "name": "subscriptionFaqs",
+          "kind": "const"
+        }
+      ]
+    },
+    {
+      "dir": "src/lib",
+      "fileCount": 2,
+      "files": [
+        "cart.tsx",
+        "utils.ts"
+      ],
+      "symbols": [
+        {
+          "name": "CartProvider",
+          "kind": "fn"
+        },
+        {
+          "name": "useCart",
+          "kind": "fn"
+        },
+        {
+          "name": "CartItem",
+          "kind": "interface"
+        }
+      ]
     }
   ]
 }

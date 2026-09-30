@@ -9,7 +9,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-playfair);
+  --font-heading: var(--font-heading);
+  --font-data: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -38,82 +39,83 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
   --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: calc(var(--radius) * 1.8);
-  --radius-3xl: calc(var(--radius) * 2.2);
-  --radius-4xl: calc(var(--radius) * 2.6);
+  --radius-xl: calc(var(--radius) * 1.25);
+  --radius-2xl: calc(var(--radius) * 1.75);
+  --radius-3xl: calc(var(--radius) * 2.25);
+  --radius-4xl: calc(var(--radius) * 2.75);
 }
 
 :root {
-  --background: oklch(0.985 0.002 120);
-  --foreground: oklch(0.13 0.01 110);
+  /* Veld clinical palette — cool, sterile, laboratory white with teal-mint accent */
+  --background: oklch(0.985 0.001 200);
+  --foreground: oklch(0.15 0.005 200);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.13 0.01 110);
+  --card-foreground: oklch(0.15 0.005 200);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.13 0.01 110);
-  --primary: oklch(0.35 0.04 140);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.92 0.008 120);
-  --secondary-foreground: oklch(0.35 0.04 140);
-  --muted: oklch(0.96 0.005 120);
-  --muted-foreground: oklch(0.55 0.01 130);
-  --accent: oklch(0.92 0.008 120);
-  --accent-foreground: oklch(0.35 0.04 140);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.9 0.005 120);
-  --input: oklch(0.9 0.005 120);
-  --ring: oklch(0.55 0.03 140);
-  --chart-1: oklch(0.35 0.04 140);
-  --chart-2: oklch(0.5 0.03 140);
-  --chart-3: oklch(0.65 0.02 120);
-  --chart-4: oklch(0.75 0.02 100);
-  --chart-5: oklch(0.45 0.04 160);
-  --radius: 0.5rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.13 0.01 110);
-  --sidebar-primary: oklch(0.35 0.04 140);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.92 0.008 120);
-  --sidebar-accent-foreground: oklch(0.35 0.04 140);
-  --sidebar-border: oklch(0.9 0.005 120);
-  --sidebar-ring: oklch(0.55 0.03 140);
+  --popover-foreground: oklch(0.15 0.005 200);
+  --primary: oklch(0.42 0.05 185);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.94 0.008 190);
+  --secondary-foreground: oklch(0.25 0.02 185);
+  --muted: oklch(0.97 0.002 190);
+  --muted-foreground: oklch(0.55 0.008 200);
+  --accent: oklch(0.94 0.015 180);
+  --accent-foreground: oklch(0.25 0.03 185);
+  --destructive: oklch(0.6 0.16 25);
+  --border: oklch(0.88 0.003 200);
+  --input: oklch(0.91 0.002 200);
+  --ring: oklch(0.55 0.04 185);
+  --chart-1: oklch(0.42 0.05 185);
+  --chart-2: oklch(0.52 0.03 185);
+  --chart-3: oklch(0.62 0.02 190);
+  --chart-4: oklch(0.45 0.03 175);
+  --chart-5: oklch(0.35 0.04 195);
+  --radius: 0.375rem;
+  --sidebar: oklch(0.985 0.001 200);
+  --sidebar-foreground: oklch(0.15 0.005 200);
+  --sidebar-primary: oklch(0.42 0.05 185);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.94 0.015 180);
+  --sidebar-accent-foreground: oklch(0.25 0.03 185);
+  --sidebar-border: oklch(0.88 0.003 200);
+  --sidebar-ring: oklch(0.55 0.04 185);
 }
 
 .dark {
-  --background: oklch(0.13 0.01 110);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.18 0.008 110);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.18 0.008 110);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.65 0.05 140);
-  --primary-foreground: oklch(0.13 0.01 110);
-  --secondary: oklch(0.25 0.015 120);
-  --secondary-foreground: oklch(0.85 0.01 120);
-  --muted: oklch(0.2 0.01 110);
-  --muted-foreground: oklch(0.6 0.01 130);
-  --accent: oklch(0.25 0.015 120);
-  --accent-foreground: oklch(0.85 0.01 120);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.65 0.05 140);
-  --chart-1: oklch(0.65 0.05 140);
-  --chart-2: oklch(0.55 0.03 140);
-  --chart-3: oklch(0.45 0.02 120);
-  --chart-4: oklch(0.35 0.02 100);
-  --chart-5: oklch(0.5 0.04 160);
-  --sidebar: oklch(0.18 0.008 110);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.65 0.05 140);
-  --sidebar-primary-foreground: oklch(0.13 0.01 110);
-  --sidebar-accent: oklch(0.25 0.015 120);
-  --sidebar-accent-foreground: oklch(0.85 0.01 120);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.65 0.05 140);
+  --background: oklch(0.14 0.005 200);
+  --foreground: oklch(0.96 0.002 200);
+  --card: oklch(0.18 0.004 200);
+  --card-foreground: oklch(0.96 0.002 200);
+  --popover: oklch(0.18 0.004 200);
+  --popover-foreground: oklch(0.96 0.002 200);
+  --primary: oklch(0.6 0.055 185);
+  --primary-foreground: oklch(0.14 0.005 200);
+  --secondary: oklch(0.22 0.01 195);
+  --secondary-foreground: oklch(0.85 0.01 190);
+  --muted: oklch(0.2 0.004 200);
+  --muted-foreground: oklch(0.6 0.008 200);
+  --accent: oklch(0.22 0.015 185);
+  --accent-foreground: oklch(0.85 0.015 180);
+  --destructive: oklch(0.55 0.18 25);
+  --border: oklch(1 0 0 / 8%);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.55 0.04 185);
+  --chart-1: oklch(0.6 0.055 185);
+  --chart-2: oklch(0.5 0.03 185);
+  --chart-3: oklch(0.45 0.02 190);
+  --chart-4: oklch(0.55 0.03 175);
+  --chart-5: oklch(0.4 0.04 195);
+  --sidebar: oklch(0.14 0.005 200);
+  --sidebar-foreground: oklch(0.96 0.002 200);
+  --sidebar-primary: oklch(0.6 0.055 185);
+  --sidebar-primary-foreground: oklch(0.14 0.005 200);
+  --sidebar-accent: oklch(0.22 0.015 185);
+  --sidebar-accent-foreground: oklch(0.85 0.015 180);
+  --sidebar-border: oklch(1 0 0 / 8%);
+  --sidebar-ring: oklch(0.55 0.04 185);
 }
 
 @layer base {
@@ -141,4 +143,23 @@ html {
 /* Cart item count badge */
 .cart-count {
   @apply absolute -top-1.5 -right-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-[10px] font-medium text-primary-foreground;
+}
+
+/* Clinical data-card styling */
+.clinical-card {
+  @apply border border-border/50 bg-white shadow-[0_1px_3px_0_rgba(0,0,0,0.02)] transition-shadow hover:shadow-[0_2px_8px_0_rgba(0,0,0,0.04)];
+}
+
+/* Molecule diagram placeholder dots */
+.molecule-dot {
+  @apply inline-block h-1.5 w-1.5 rounded-full bg-primary/30;
+}
+
+.molecule-dot-lg {
+  @apply inline-block h-2.5 w-2.5 rounded-full bg-primary/25;
+}
+
+/* Ingredient badge */
+.inci-badge {
+  @apply inline-flex items-center gap-1 rounded-full border border-border/30 bg-primary/[0.03] px-2.5 py-0.5 text-[10px] font-mono tracking-wide text-primary uppercase;
 }
