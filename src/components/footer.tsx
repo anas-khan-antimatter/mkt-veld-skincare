@@ -65,6 +65,24 @@ export function Footer() {
 
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+              Learn
+            </h3>
+            <ul className="mt-4 space-y-2">
+              {footerLinks.learn.map((link) => (
+                <li key={link.label}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
               Support
             </h3>
             <ul className="mt-4 space-y-2">
