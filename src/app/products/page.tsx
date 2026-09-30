@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { products } from "@/data/products";
 
 export default function ProductsPage() {
