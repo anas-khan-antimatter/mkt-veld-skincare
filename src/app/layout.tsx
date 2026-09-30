@@ -1,30 +1,35 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
+import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart";
 import { Header } from "@/components/header";
 import { CartDrawer } from "@/components/cart-drawer";
 import { Footer } from "@/components/footer";
 
-const geistSans = Geist({
+const inter = Inter({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+const jetbrainsMono = JetBrains_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-heading",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Veld — Clean Clinical Skincare",
+  title: "Veld — Clinical Skincare | Evidence-Based Formulations",
   description:
-    "Evidence-driven skincare, stripped of noise. Non-toxic, microbiome-safe, clinically validated.",
+    "Evidence-driven skincare, stripped of noise. Non-toxic, microbiome-safe, clinically validated formulations with full INCI transparency.",
+  openGraph: {
+    title: "Veld — Clinical Skincare",
+    description: "Evidence-driven skincare, stripped of noise.",
+    siteName: "Veld",
+  },
 };
 
 export default function RootLayout({
@@ -35,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} h-full antialiased`}
+      className={`${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background">
         <CartProvider>
