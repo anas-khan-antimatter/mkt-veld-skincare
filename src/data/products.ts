@@ -103,90 +103,101 @@ export const products: Product[] = [
   {
     id: "barrier-cream",
     name: "Barrier Recovery Cream",
-    tagline: "Post-retinoid repair with ectoin and beta-glucan",
+    tagline: "Ectoin and beta-glucan for compromised barrier repair",
     price: 56,
     category: "Moisturisers",
     description:
-      "A minimalist, ceramide-rich recovery cream engineered for sensitised or barrier-compromised skin. Beta-glucan from oats provides immediate calming while ectoin and postbiotic fermentlysate repair desquamation. The lipid-phase delivers a biophilic film that doesn't suffocate pores.",
+      "A sensorial lightweight cream engineered for barrier-compromised skin. Ectoin 1.5% (a extremolyte from halophilic bacteria) reduces stinging sensation within 90 seconds of application while beta-glucan 2% forms a moisture reservoir that lasts 12 hours. The ceramide analogue (psychosine) reinforces lamellar lipid packing without the weight of traditional occlusives.",
     ingredients: [
-      "Beta-Glucan 2% — Oat-derived, immediate stinging relief on compromised barriers",
-      "Ectoin 1.5% — Stress-protection molecule, membrane-stabilising",
-      "Lactobacillus Ferment Lysate — Postbiotic, microbiome-friendly repair signal",
-      "Ceramide NP — Targeted barrier gap-filling lipid",
-      "Shea Butter Ethyl Esters — Non-comedogenic occlusive, lighter than traditional shea",
+      "Ectoin 1.5% — Extremolyte that soothes irritation, reduces stinging by 44% in 90s",
+      "Beta-Glucan 2% — High-molecular-weight polysaccharide, forms hydration reservoir",
+      "Psychosine (Ceramide Analogue) — Lamellar lipid packing reinforcement",
+      "Squalane — Non-comedogenic emollient at physiological concentration",
+      "Panthenol 2% — Pro-vitamin B5 accelerates barrier recovery",
     ],
     howToUse:
-      "Use AM and PM after serum. Dispense one pump and press gently into skin — do not rub. Can be layered over damp skin for extra hydration. Ideal cycling partner after retinol or acid exfoliation nights.",
+      "Apply a thin, even layer to clean skin after serum. Use AM and PM. On barrier-compromised skin, a second layer can be applied to particularly dry or irritated areas. Compatible with all Veld actives.",
     clinical: [
-      "TEWL reduction of 44% in single application (barrier-compromised cohort, n=30)",
-      "Stinging sensation resolved within 90 seconds vs 12 min for standard barrier creams",
-      "Microbiome diversity score maintained (no dysbiosis) over 4-week use",
-      "Non-comedogenic and ophthalmologist-tested",
+      "44% reduction in TEWL after single application on barrier-compromised skin (n=30)",
+      "Stinging sensation resolved within 90 seconds (VAS, n=30)",
+      "100% pass on repeat-insult patch test (RIPT, 2024)",
+      "12-hour moisture retention vs 4 hours for ceramide-only cream",
     ],
-    image: "/products/cream.jpg",
+    image: "/products/barrier.jpg",
     sizes: [
-      { label: "40ml", price: 56 },
-      { label: "75ml", price: 82 },
+      { label: "30ml", price: 56 },
+      { label: "50ml", price: 78 },
     ],
   },
   {
     id: "gentle-cleanser",
     name: "Gentle Lipid Cleanser",
-    tagline: "Micellar amino-acid gel with prebiotic oat oil",
-    price: 36,
+    tagline: "Non-foaming, microbiome-safe lipid cleanser",
+    price: 38,
     category: "Cleansers",
     description:
-      "An elegantly pH-balanced, jelly-textured cleanser that dissolves sunscreen, sebum, and urban particulate without stripping. The dual-micellar system uses amino-acid surfactants (sodium cocoyl alaninate) at a concentration high enough to cleanse but low enough to preserve the acid mantle. Oat prebiotic oil feeds the skin's commensal microbiome as you cleanse.",
+      "A non-foaming, cream-based cleanser that removes sunscreen, excess sebum, and urban particulates without stripping the stratum corneum. The dual lipid phase (caprylic/capric triglyceride + squalane) dissolves lipophilic debris while amino-acid-derived surfactants provide just enough lift for water-soluble impurities. pH 5.5 matches the acid mantle.",
     ingredients: [
-      "Sodium Cocoyl Alaninate — Amino-acid derived, ultra-gentle primary surfactant",
-      "Polyglyceryl-6 Laurate — Non-ionic emulsifier, removes silicone-based sunscreen",
-      "Prebiotic Oat Oil — Beta-glucan-rich, feeds commensal skin bacteria",
-      "Allantoin 0.5% — Mild keratolytic, smooths texture without acid sting",
-      "Panthenol 1% — Anti-irritant buffer, leaves skin supple after rinse",
+      "Caprylic/Capric Triglyceride — Fractionated coconut oil, non-comedogenic lipid phase",
+      "Squalane — Olive-derived, mimics skin's own sebum lipids",
+      "Coco-Glucoside + Glyceryl Oleate — Non-ionic surfactant pair, mild enough for compromised barriers",
+      "Allantoin — Soothing, keratolytic at gentle concentration",
+      "Lactobacillus Ferment Lysate — Postbiotic preservation booster, microbiome-friendly",
     ],
     howToUse:
-      "Pump 2–3 doses into dry or damp hands. Massage onto dry skin for first-pass makeup/sunscreen removal, then add water for second-pass emulsification. Rinse thoroughly. Suitable for eye area.",
+      "Dispense 2–3 pumps onto dry or pre-wetted skin. Massage gently for 45 seconds, then rinse with lukewarm water. Can be used as single cleanse in the AM or first cleanse in a double-cleanse PM routine. Not water-activated — no foam, no stripping.",
     clinical: [
-      "pH 5.2–5.5 maintained after rinse — acid mantle preserved",
-      "No increase in TEWL after 2 weeks twice-daily use (n=35)",
-      "51% reduction in perceived tightness vs sulphate-based cleansers",
-      "Microbiome alpha diversity maintained (16S rRNA sequencing, n=20)",
+      "0.3% TEWL increase vs 8% for SLS-based cleanser (n=25, occlusive patch, 2024)",
+      "Stratum corneum integrity maintained (no corneocyte desquamation increase)",
+      "Non-comedogenic — 0% follicular keratosis in 21-day repeat-use",
+      "pH 5.5 ± 0.3 — within physiological acid mantle range",
     ],
     image: "/products/cleanser.jpg",
     sizes: [
-      { label: "150ml", price: 36 },
-      { label: "250ml", price: 48 },
+      { label: "100ml", price: 38 },
+      { label: "200ml", price: 58 },
     ],
   },
   {
     id: "spf50-powder",
     name: "Mineral SPF 50 Powder",
-    tagline: "Reappliable non-nano zinc with antioxidant mist",
-    price: 38,
+    tagline: "Non-nano zinc oxide, reef-safe, translucent finish",
+    price: 44,
     category: "Sun Protection",
     description:
-      "A reimagined mineral sunscreen in weightless powder form — designed for effortless reapplication over makeup or bare skin. Non-nano zinc oxide 22.5% provides broad-spectrum protection while a built-in kabuki buffing head delivers even, invisible deposition. The accompanying thermal antioxidant mist reactivates UV filters for second-pass protection.",
+      "A loose mineral powder with SPF 50+ UVB/UVA protection using non-nano zinc oxide (mean particle size 180 nm). The powder format eliminates the need for chemical UV filters, emulsifiers, or preservatives. Iron oxides provide a universal translucent tint that adapts to all Fitzpatrick skin types I–VI. No white cast, no eye sting, no reef impact.",
     ingredients: [
-      "Non-Nano Zinc Oxide 22.5% — FDA-approved, reef-safe, broad-spectrum mineral filter",
-      "Tetrahexyldecyl Ascorbate — Oil-soluble vitamin C, stabilised in dry powder",
-      "Saccharomyces Ferment — Iron-chelating antioxidant, prevents oxidation discolouration",
-      "Silica Silylate — Skin-blurring, sebum-absorbing spherical powder",
-      "Thermal Spring Water (mist) — Selenium-rich, antioxidant reactivation trigger",
+      "Non-Nano Zinc Oxide 22.5% (mean 180 nm) — Broad-spectrum UV filter, SPF 50+",
+      "Iron Oxides (CI 77491, CI 77492, CI 77499) — Universal translucent tint, no white cast",
+      "Silica Silylate — Hydrophobic coating, oil-absorbing, 8-hour wear",
+      "Tocopherol (Vitamin E) — Antioxidant, prevents oxidation of sebum on skin",
+      "No oxybenzone, no octinoxate, no octocrylene, no preservatives, no fragrance",
     ],
     howToUse:
-      "Swipe the kabuki head across your face in circular motions. For full protection, apply 3–4 layers. Use the accompanying mist to 'reactivate' the powder for second-pass UV protection after 2 hours. Not a primary sunscreen — use with a cream SPF base.",
+      "Swirl brush into powder, tap off excess, and dust generously over face and neck. One full brush application provides approximately SPF 25; two applications (standard for topical sunscreens) provide SPF 50+. Reapply every 2 hours if exposed to direct sun. Can be used over makeup.",
     clinical: [
-      "SPF 50+ PPD 21 (PA++++) — Independent in-vivo testing, ISO 24444 compliant",
-      "Powder particle size >100nm — no inhalation risk, no coral toxicity",
-      "Reactivation spray increases effective UV protection by +18% on second pass",
-      "Sebum absorption rate 2.3× standard setting powder (n=15 sebumetry)",
+      "SPF 52 ± 3 (in-vivo, ISO 24444, 2024)",
+      "UVA-PF 18 (in-vivo, ISO 24442), exceeds EU recommendation of 1/3 of SPF",
+      "No white cast on Fitzpatrick VI (spectrophotometry, ΔE=1.2)",
+      "Reef-safe: no coral bleaching at 10 mg/L (NOAA protocol, 2022)",
     ],
     image: "/products/spf.jpg",
     sizes: [
-      { label: "8g (compact)", price: 38 },
-      { label: "Refill", price: 30 },
+      { label: "12g", price: 44 },
+      { label: "20g refill", price: 38 },
     ],
   },
 ];
 
-export const categories = [...new Set(products.map((p) => p.category))];
+// Helper to get product by id
+export function getProductById(id: string): Product | undefined {
+  return products.find((p) => p.id === id);
+}
+
+// Helper to get products by category
+export function getProductsByCategory(category: string): Product[] {
+  return products.filter((p) => p.category === category);
+}
+
+// Categories
+export const categories = ["All", "Serums", "Moisturisers", "Cleansers", "Sun Protection"] as const;
