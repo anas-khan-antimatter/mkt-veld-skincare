@@ -3,7 +3,14 @@ import Link from "next/link";
 const footerLinks = {
   shop: [
     { href: "/", label: "All Products" },
-    { href: "/science", label: "Science" },
+    { href: "/products", label: "Product Catalog" },
+    { href: "/routine", label: "Routine Builder" },
+    { href: "/quiz", label: "Skin Quiz" },
+    { href: "/subscription", label: "Subscription" },
+  ],
+  learn: [
+    { href: "/science", label: "Clinical Research" },
+    { href: "/science/lab-notes", label: "Lab Notes" },
     { href: "/story", label: "Our Story" },
   ],
   support: [

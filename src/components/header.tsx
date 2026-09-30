@@ -8,8 +8,12 @@ import { Button } from "@/components/ui/button";
 
 const navLinks = [
   { href: "/", label: "Shop" },
-  { href: "/story", label: "Our Story" },
+  { href: "/products", label: "All Products" },
+  { href: "/routine", label: "Routine Builder" },
+  { href: "/quiz", label: "Skin Quiz" },
   { href: "/science", label: "Science" },
+  { href: "/science/lab-notes", label: "Lab Notes" },
+  { href: "/story", label: "Our Story" },
 ];
 
 export function Header() {
