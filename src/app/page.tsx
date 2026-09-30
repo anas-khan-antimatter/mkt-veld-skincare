@@ -56,6 +56,12 @@ export default function Home() {
                   <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </Button>
+              <Button asChild variant="outline" size="lg" className="rounded-full">
+                <Link href="/quiz">
+                  Take the Skin Quiz
+                  <ArrowRight className="ml-1 h-4 w-4" />
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
