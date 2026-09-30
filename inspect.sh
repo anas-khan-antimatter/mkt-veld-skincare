@@ -1,0 +1,1 @@
+pwd && echo "---" && ls -la && echo "---" && git status && echo "---" && git log --oneline -10 2>/dev/null || echo "no git log"
