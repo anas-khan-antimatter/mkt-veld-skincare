@@ -238,3 +238,11 @@ function ResultsContent() {
     </div>
   );
 }
+
+export default function QuizResultsPage() {
+  return (
+    <Suspense>
+      <ResultsContent />
+    </Suspense>
+  );
+}
