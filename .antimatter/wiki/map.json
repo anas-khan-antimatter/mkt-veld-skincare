@@ -1,8 +1,8 @@
 {
-  "root": "/tmp/am-ws/c-1790732953561-xczn6",
-  "name": "c-1790732953561-xczn6",
-  "generatedAt": "2026-09-30T22:47:13.347Z",
-  "fileCount": 54,
+  "root": "/tmp/am-ws/c-1790877745301-kdnse",
+  "name": "c-1790877745301-kdnse",
+  "generatedAt": "2026-10-01T18:24:55.305Z",
+  "fileCount": 55,
   "dirCount": 20,
   "languages": {
     "Markdown": 8,
@@ -32,7 +32,7 @@
     },
     {
       "dir": "(root)",
-      "fileCount": 12,
+      "fileCount": 13,
       "files": [
         ".gitignore",
         "AGENTS.md",
@@ -44,6 +44,7 @@
         "package.json",
         "postcss.config.mjs",
         "README.md",
+        "TRIGGER",
         "tsconfig.json",
         "vercel.json"
       ],

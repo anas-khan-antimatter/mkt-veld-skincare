@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { useMemo } from "react";
 import { products } from "@/data/products";
@@ -12,7 +13,7 @@ import { useCart } from "@/lib/cart";
 import Link from "next/link";
 import { Sun, Moon, ShoppingBag, Check, ArrowRight, RefreshCw } from "lucide-react";
 
-export default function QuizResultsPage() {
+function ResultsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const { addItem, setIsOpen } = useCart();

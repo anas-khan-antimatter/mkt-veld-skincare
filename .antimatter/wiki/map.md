@@ -1,5 +1,5 @@
-# Workspace Map — c-1790732953561-xczn6
-_Generated 2026-09-30 · 54 files · 20 directories_  
+# Workspace Map — c-1790877745301-kdnse
+_Generated 2026-10-01 · 55 files · 20 directories_  
 _Deterministic structural map. Regenerate with the `map` tool or "Antimatter: Map Workspace". Do not hand-edit._
 
 ## Languages
@@ -18,8 +18,8 @@ _Deterministic structural map. Regenerate with the `map` tool or "Antimatter: Ma
 ### `.antimatter/wiki` — 6 files
 - files: index.md, log.md, map.json, map.md, overview.md, schema.md
 
-### `(root)` — 12 files
-- files: .gitignore, AGENTS.md, CLAUDE.md, components.json, eslint.config.mjs, next.config.ts, package-lock.json, package.json, postcss.config.mjs, README.md, tsconfig.json, vercel.json
+### `(root)` — 13 files
+- files: .gitignore, AGENTS.md, CLAUDE.md, components.json, eslint.config.mjs, next.config.ts, package-lock.json, package.json, postcss.config.mjs, README.md, TRIGGER, tsconfig.json, vercel.json
 
 ### `public` — 5 files
 - files: file.svg, globe.svg, next.svg, vercel.svg, window.svg
