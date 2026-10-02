@@ -1,5 +1,5 @@
-# Workspace Map — c-1790877745301-kdnse
-_Generated 2026-10-01 · 55 files · 20 directories_  
+# Workspace Map — c-1790884292762-xy2bh
+_Generated 2026-10-02 · 55 files · 20 directories_  
 _Deterministic structural map. Regenerate with the `map` tool or "Antimatter: Map Workspace". Do not hand-edit._
 
 ## Languages
